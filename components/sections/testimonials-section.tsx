@@ -9,25 +9,25 @@ import { AnimatedBackground } from "@/components/ui/animated-background"
 export function TestimonialsSection() {
   const testimonials = [
     {
-      name: "Alex Johnson",
-      role: "Frontend Developer",
+      name: "Carlos Mendoza",
+      role: "CEO, TechStart Perú",
       content:
-        "This component library has saved me countless hours of development time. The components are beautifully designed and easy to customize.",
-      avatar: "AJ",
+        "El equipo desarrolló nuestra plataforma de e-commerce desde cero. Su profesionalismo y atención al detalle superaron nuestras expectativas. El proyecto se entregó a tiempo y dentro del presupuesto.",
+      avatar: "CM",
     },
     {
-      name: "Sarah Chen",
-      role: "UI/UX Designer",
+      name: "María González",
+      role: "CTO, InnovaSoft",
       content:
-        "As a designer, I appreciate the attention to detail in these components. They're not only functional but also aesthetically pleasing.",
-      avatar: "SC",
+        "Trabajamos con ellos en la migración de nuestro sistema legacy a una arquitectura moderna. Su experiencia técnica y capacidad de resolución de problemas fue excepcional.",
+      avatar: "MG",
     },
     {
-      name: "Michael Rodriguez",
-      role: "Product Manager",
+      name: "Roberto Silva",
+      role: "Director de IT, Corporación Lima",
       content:
-        "Our team's productivity has increased significantly since we started using this library. The documentation is excellent and the components are robust.",
-      avatar: "MR",
+        "Desarrollaron nuestro ERP personalizado que ha transformado completamente nuestros procesos internos. La eficiencia operativa mejoró en un 40% desde la implementación.",
+      avatar: "RS",
     },
   ]
 
@@ -40,13 +40,13 @@ export function TestimonialsSection() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <AnimatedText
-                text="What Our Users Say"
+                text="Lo Que Dicen Nuestros Clientes"
                 variant="heading"
                 className="text-3xl font-heading font-bold tracking-tighter sm:text-5xl"
                 animation="slide"
               />
               <AnimatedText
-                text="Hear from developers and designers who use our component library in their projects."
+                text="Testimonios reales de empresas que han confiado en nosotros para desarrollar sus soluciones tecnológicas."
                 variant="paragraph"
                 className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 opacity-70"
                 animation="fade"

@@ -1,5 +1,5 @@
 "use client"
-import { Code, Layers, Palette, Sparkles, Zap, Shield } from "lucide-react"
+import { Code, Layers, Palette, Sparkles, Zap, Shield, Smartphone, Database, Globe, Server, Users, Cog } from "lucide-react"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ScrollReveal } from "@/components/scroll-reveal"
@@ -12,45 +12,45 @@ import { ProgressCard } from "@/components/ui-library/cards/progress-card"
 export function FeaturesSection() {
   const features = [
     {
-      icon: <Layers className="h-10 w-10 text-red-500" />,
-      title: "Composable Components",
-      description: "Build complex UIs with our composable and reusable component library.",
+      icon: <Globe className="h-10 w-10 text-red-500" />,
+      title: "Páginas Web Corporativas",
+      description: "Desarrollamos sitios web profesionales y responsivos que representan perfectamente tu marca y atraen a tus clientes.",
       progress: 100,
       borderClass: "border-glow-red",
     },
     {
-      icon: <Palette className="h-10 w-10 text-blue-500" />,
-      title: "Customizable Themes",
-      description: "Easily customize colors, fonts, and styles to match your brand identity.",
-      progress: 90,
+      icon: <Code className="h-10 w-10 text-blue-500" />,
+      title: "Sistemas Web Personalizados",
+      description: "Creamos aplicaciones web complejas y sistemas de gestión adaptados a las necesidades específicas de tu empresa.",
+      progress: 98,
       borderClass: "border-glow-blue",
     },
     {
-      icon: <Zap className="h-10 w-10 text-yellow-500" />,
-      title: "Performance Optimized",
-      description: "Lightweight components designed for optimal performance and loading times.",
+      icon: <Database className="h-10 w-10 text-yellow-500" />,
+      title: "Bases de Datos Optimizadas",
+      description: "Diseñamos y optimizamos bases de datos robustas para garantizar el rendimiento y seguridad de tu información.",
       progress: 95,
       borderClass: "border-glow-yellow",
     },
     {
-      icon: <Code className="h-10 w-10 text-green-500" />,
-      title: "TypeScript Ready",
-      description: "Fully typed components for better developer experience and fewer bugs.",
-      progress: 100,
+      icon: <Server className="h-10 w-10 text-green-500" />,
+      title: "APIs y Backend",
+      description: "Desarrollamos APIs REST escalables y backends sólidos que alimentan tus sistemas web con máxima eficiencia.",
+      progress: 92,
       borderClass: "border-glow-green",
     },
     {
-      icon: <Sparkles className="h-10 w-10 text-purple-500" />,
-      title: "Interactive Animations",
-      description: "Beautiful animations and transitions powered by Framer Motion.",
-      progress: 85,
+      icon: <Users className="h-10 w-10 text-purple-500" />,
+      title: "Portales Web Empresariales",
+      description: "Construimos portales internos y externos que mejoran la comunicación y productividad de tu organización.",
+      progress: 90,
       borderClass: "border-glow-purple",
     },
     {
-      icon: <Shield className="h-10 w-10 text-orange-500" />,
-      title: "Accessibility First",
-      description: "Fully accessible components that work for all users and comply with WCAG standards.",
-      progress: 92,
+      icon: <Cog className="h-10 w-10 text-orange-500" />,
+      title: "Mantenimiento y Soporte",
+      description: "Ofrecemos soporte técnico continuo y mantenimiento para garantizar el funcionamiento óptimo de tu sistema web.",
+      progress: 88,
       borderClass: "border-glow-orange",
     },
   ]
@@ -64,13 +64,13 @@ export function FeaturesSection() {
           <div className="flex flex-col items-center justify-center space-y-6 text-center mb-12">
             <div className="space-y-4">
               <AnimatedText
-                text="Powerful Features for Modern Web Development"
+                text="Especialistas en Sistemas Web y Páginas Web"
                 variant="heading"
                 className="text-3xl font-heading font-bold tracking-tighter sm:text-5xl gradient-text"
                 animation="slide"
               />
               <AnimatedText
-                text="Our component library provides everything you need to build beautiful, interactive, and accessible web applications."
+                text="Desarrollamos soluciones web completas, desde páginas corporativas hasta sistemas empresariales complejos, utilizando las mejores tecnologías del mercado."
                 variant="paragraph"
                 className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 opacity-70"
                 animation="fade"

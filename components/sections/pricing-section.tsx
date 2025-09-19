@@ -9,54 +9,56 @@ import { motion } from "framer-motion"
 export function PricingSection() {
   const plans = [
     {
-      name: "Starter",
-      description: "Perfect for small projects and individual developers.",
-      price: "$49",
-      duration: "one-time payment",
+      name: "Web Básico",
+      description: "Perfecto para pequeñas empresas y startups que necesitan presencia web.",
+      price: "$2,500",
+      duration: "proyecto completo",
       features: [
-        "50+ UI Components",
-        "Responsive Design",
-        "Tailwind CSS Integration",
-        "6 Months Support",
-        "Basic Documentation",
+        "Sitio web responsivo hasta 5 páginas",
+        "Diseño moderno y profesional",
+        "Optimización SEO básica",
+        "Formulario de contacto",
+        "3 meses de soporte gratuito",
+        "Hosting por 1 año incluido",
       ],
-      cta: "Get Started",
+      cta: "Comenzar Proyecto",
       popular: false,
     },
     {
-      name: "Pro",
-      description: "Ideal for professional developers and small teams.",
-      price: "$99",
-      duration: "one-time payment",
+      name: "Aplicación Web",
+      description: "Ideal para empresas que necesitan sistemas web personalizados.",
+      price: "$8,500",
+      duration: "proyecto completo",
       features: [
-        "100+ UI Components",
-        "Responsive Design",
-        "Tailwind CSS Integration",
-        "12 Months Support",
-        "Advanced Documentation",
-        "Source Files",
-        "Premium Components",
+        "Aplicación web completa",
+        "Panel de administración",
+        "Base de datos optimizada",
+        "API REST personalizada",
+        "Autenticación de usuarios",
+        "6 meses de soporte",
+        "Despliegue en la nube",
+        "Capacitación del equipo",
       ],
-      cta: "Get Pro",
+      cta: "Solicitar Cotización",
       popular: true,
     },
     {
-      name: "Enterprise",
-      description: "For large teams and complex projects.",
-      price: "$249",
-      duration: "one-time payment",
+      name: "Sistema Empresarial",
+      description: "Para grandes empresas que requieren soluciones complejas y escalables.",
+      price: "$25,000+",
+      duration: "según alcance",
       features: [
-        "200+ UI Components",
-        "Responsive Design",
-        "Tailwind CSS Integration",
-        "Lifetime Support",
-        "Advanced Documentation",
-        "Source Files",
-        "Premium Components",
-        "Custom Components",
-        "Priority Support",
+        "Sistema completo personalizado",
+        "Arquitectura escalable",
+        "Múltiples integraciones",
+        "App móvil complementaria",
+        "DevOps y CI/CD",
+        "Soporte prioritario 24/7",
+        "Infraestructura en la nube",
+        "Consultoría especializada",
+        "Mantenimiento continuo",
       ],
-      cta: "Contact Sales",
+      cta: "Contactar Ventas",
       popular: false,
     },
   ]
@@ -68,10 +70,10 @@ export function PricingSection() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-heading font-bold tracking-tighter sm:text-5xl">
-                Simple, Transparent Pricing
+                Paquetes de Desarrollo
               </h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 opacity-70">
-                Choose the plan that's right for you and start building amazing user interfaces.
+                Elige el paquete que mejor se adapte a las necesidades de tu proyecto y comienza a transformar tu idea en realidad.
               </p>
             </div>
           </div>

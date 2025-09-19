@@ -7,22 +7,22 @@ import { ArrowRight } from "lucide-react"
 export function BlogSection() {
   const blogPosts = [
     {
-      title: "Building Modern UIs with ComponentCraft",
-      description: "Learn how to create stunning user interfaces using our component library.",
-      date: "May 15, 2023",
-      readTime: "5 min read",
+      title: "Tendencias en Desarrollo Web 2024",
+      description: "Descubre las últimas tecnologías y frameworks que están revolucionando el desarrollo web este año.",
+      date: "15 de Marzo, 2024",
+      readTime: "8 min de lectura",
     },
     {
-      title: "The Power of Tailwind CSS and React",
-      description: "Discover how Tailwind CSS and React can transform your development workflow.",
-      date: "April 28, 2023",
-      readTime: "7 min read",
+      title: "Arquitectura de Microservicios: Guía Completa",
+      description: "Aprende cómo implementar una arquitectura de microservicios escalable y mantenible para tu empresa.",
+      date: "28 de Febrero, 2024",
+      readTime: "12 min de lectura",
     },
     {
-      title: "Designing Accessible Components",
-      description: "Best practices for creating accessible UI components for all users.",
-      date: "April 10, 2023",
-      readTime: "6 min read",
+      title: "DevOps: Automatización y Mejores Prácticas",
+      description: "Implementa pipelines CI/CD efectivos y automatiza el despliegue de tus aplicaciones con estas estrategias.",
+      date: "10 de Febrero, 2024",
+      readTime: "10 min de lectura",
     },
   ]
 
@@ -32,9 +32,9 @@ export function BlogSection() {
         <ScrollReveal>
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-heading font-bold tracking-tighter sm:text-5xl">Latest Articles</h2>
+              <h2 className="text-3xl font-heading font-bold tracking-tighter sm:text-5xl">Artículos Técnicos</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 opacity-70">
-                Stay updated with our latest insights, tutorials, and best practices.
+                Mantente actualizado con nuestros insights técnicos, tutoriales y mejores prácticas de desarrollo.
               </p>
             </div>
           </div>

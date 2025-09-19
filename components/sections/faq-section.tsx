@@ -5,29 +5,29 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 export function FaqSection() {
   const faqs = [
     {
-      question: "What is ComponentCraft?",
+      question: "¿Qué tipos de aplicaciones desarrollan?",
       answer:
-        "ComponentCraft is a premium UI component library built with shadcn/ui and Aceternity UI for modern web applications. It provides a collection of beautifully designed, accessible, and customizable components for React and Next.js applications.",
+        "Desarrollamos una amplia gama de aplicaciones: sitios web responsivos, aplicaciones web complejas, apps móviles nativas e híbridas, APIs REST, sistemas empresariales (ERP, CRM), e-commerce, y soluciones de software personalizado según las necesidades específicas de cada cliente.",
     },
     {
-      question: "How do I get started with ComponentCraft?",
+      question: "¿Cuánto tiempo toma desarrollar un proyecto?",
       answer:
-        "To get started, purchase a license that fits your needs, download the component library, and follow our comprehensive documentation to integrate the components into your project.",
+        "El tiempo de desarrollo varía según la complejidad del proyecto. Un sitio web básico puede tomar 2-4 semanas, una aplicación web completa 3-6 meses, y sistemas empresariales complejos pueden requerir 6-12 meses. Siempre proporcionamos un cronograma detallado en la fase de planificación.",
     },
     {
-      question: "Can I customize the components?",
+      question: "¿Qué tecnologías utilizan?",
       answer:
-        "Yes, all components are fully customizable. You can modify colors, sizes, animations, and other properties to match your brand identity and design requirements.",
+        "Trabajamos con tecnologías modernas y probadas: React, Next.js, Node.js, Python/Django, React Native, Flutter, PostgreSQL, MongoDB, AWS, Docker, y muchas más. Seleccionamos la stack tecnológica más adecuada para cada proyecto específico.",
     },
     {
-      question: "Is ComponentCraft compatible with my tech stack?",
+      question: "¿Ofrecen soporte después del lanzamiento?",
       answer:
-        "ComponentCraft is designed to work seamlessly with React and Next.js applications. It integrates well with Tailwind CSS and TypeScript, making it a perfect fit for modern web development workflows.",
+        "Sí, ofrecemos diferentes niveles de soporte post-lanzamiento que incluyen mantenimiento correctivo, actualizaciones de seguridad, optimización de performance, y nuevas funcionalidades. El período y tipo de soporte depende del paquete contratado.",
     },
     {
-      question: "Do you offer support?",
+      question: "¿Cómo manejan la seguridad de los datos?",
       answer:
-        "Yes, we offer support based on your license tier. The Pro and Enterprise plans include priority support to help you with any issues or questions you may have.",
+        "La seguridad es nuestra prioridad. Implementamos las mejores prácticas de seguridad: encriptación de datos, autenticación robusta, autorización granular, auditorías de seguridad, backups automáticos, y cumplimiento con estándares internacionales como GDPR cuando es requerido.",
     },
   ]
 
@@ -38,10 +38,10 @@ export function FaqSection() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-heading font-bold tracking-tighter sm:text-5xl">
-                Frequently Asked Questions
+                Preguntas Frecuentes
               </h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 opacity-70">
-                Find answers to common questions about our component library.
+                Encuentra respuestas a las preguntas más comunes sobre nuestros servicios de desarrollo de software.
               </p>
             </div>
           </div>
